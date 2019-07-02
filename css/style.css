@@ -16,7 +16,7 @@ body {
     color: white;
     height: 32px;
     width: 32px;
-    background: blue;
+    background: rgb(92, 107, 192);
     border-radius: 100%;
 }
 
@@ -49,16 +49,16 @@ body {
     width: 500px;
     height: 50px;
     border-radius: 32px;
-    border: 1px solid black;
+    border: 1px solid rgb(197, 197, 197);
     margin: 32px;
 }
 
 .main__input {
-    width: 400px;
+    width: 360px;
     align-self: stretch;
     border: none;
     outline: none;
-    font-size: 26px;
+    font-size: 16px;
 }
 
 .main__container {
@@ -66,12 +66,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    min-width: 980px;
 }
 
 .main__logo {
     padding-top: 109px;
 }
 
-.main__button-space {
+.main__button {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
 
+.main__function {
+    padding-left: 16px;
+}
+
+.top-bar__click {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+
+.top-bar__click:hover {
+    color: rgba(151, 151, 151, 0.87);
+    text-decoration: underline;
 }
