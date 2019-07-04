@@ -142,3 +142,12 @@ padding-left: 27px;
     font-weight: inherit;
     margin: 0;
 }
+
+.footer__click {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+
+.footer__click:hover {
+    text-decoration: underline;
+}
